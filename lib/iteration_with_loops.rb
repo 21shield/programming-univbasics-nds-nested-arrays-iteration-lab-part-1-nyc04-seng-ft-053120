@@ -5,7 +5,7 @@ def find_even_values(src)
   outer_count = 0
   while outer_count < src.length do
     inner_element = 0
-    if src[outer_count][inner_element]  % 2 == 0 
+    if src[outer_count][inner_element]  % 2 == 0
       p src[outer_count][inner_element]
     end
     inner_element +=1
