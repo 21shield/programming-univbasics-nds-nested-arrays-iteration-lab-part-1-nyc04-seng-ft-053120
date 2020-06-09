@@ -8,10 +8,10 @@ def find_even_values(src)
     while inner_index < src[outer_count].length do
       if src[outer_count][inner_index] % 2 == 0
         p src[outer_count][inner_index]
-
       end
-      inner_index +=1
+      
     end
+    inner_index +=1
   end
   outer_count +=1
 end
